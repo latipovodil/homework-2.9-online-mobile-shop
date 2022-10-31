@@ -1,0 +1,50 @@
+.cases {
+  margin-top: 44px;
+}
+
+
+.cases__title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838383;
+  margin-bottom: 20px;
+}
+
+.cases__img-box {
+  max-width: 151px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.cases__page {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 350px;
+  margin-top: 30px;
+}
+
+.cases__text {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1C1C27;
+  margin-bottom: 50px;
+}
+
+.cases__page-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cases__box{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}

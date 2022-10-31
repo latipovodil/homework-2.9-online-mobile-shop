@@ -1,0 +1,173 @@
+.headphones {
+  margin-top: 30px;
+}
+
+.headphones__img-box {
+  max-width: 219px;
+}
+
+.headphones__title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838383;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.headphones__page {
+  width: 350px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  position: relative;
+}
+
+.headphones__page-title-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headphones__page-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headphones__page-title {
+  margin-right: auto;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1C1C27;
+}
+
+.headphones__page-text {
+  margin-left: 105px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFA542;
+}
+
+.headphones__page-title-box {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.headphones__page-bottom-text {
+  margin-left: -145px;
+}
+
+.headphones__page-text2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration-line: line-through;
+  color: #FFCE7F;
+}
+
+
+
+
+
+
+
+
+.like1
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  z-index: 5;
+}
+
+.like2 {
+  display: none;
+  z-index: 5;
+}
+
+.label{
+  position: relative;
+}
+
+.input:checked+.label {
+  .like1 {
+    display: none;
+   
+
+  }
+  .like2{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    animation-name: likee;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+  }
+
+  .like-form{
+    z-index: 2;
+  }
+
+
+}
+
+@keyframes likee {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  50%{
+    width: 60px;
+    height: 60px;
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+
+
+}
+
+
+
+.headphones__page{
+  padding: 15px 0 32px 21px;
+  height: 407px;
+  margin-top: 30px;
+}
+
+
+
+.headphones__box{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+
+
+@media only screen and (max-width:789px){
+  .headphones__box{
+    display: flex;
+  }
+  .headphones__page-title-box{
+    margin-top: 0;
+  }
+}
+
+
+
